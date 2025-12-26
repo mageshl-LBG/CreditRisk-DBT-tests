@@ -1,0 +1,284 @@
+/* =============================================================================
+   PROFESSIONAL PREMIUM THEME
+   =============================================================================
+   
+   Color Palette:
+   - Primary: Navy Blue (#1E40AF, #3B82F6)
+   - Secondary: Slate (#475569, #64748B)
+   - Accent: Sky Blue (#0EA5E9)
+   - Success: Emerald (#10B981)
+   - Background: Deep Navy (#0B1120, #1E293B)
+   
+   Design Principles:
+   - Clean, minimal, professional
+   - Subtle shadows and depth
+   - Refined typography
+   - Enterprise-grade aesthetics
+   ============================================================================= */
+
+/* Override main container background */
+.professional-theme-dark {
+  background: linear-gradient(135deg, #0B1120 0%, #0F172A 50%, #1E293B 100%) !important;
+}
+
+.professional-theme-light {
+  background: linear-gradient(135deg, #F8FAFC 0%, #FFFFFF 50%, #F1F5F9 100%) !important;
+}
+
+/* Sidebar professional styling */
+.professional-sidebar-dark {
+  background: rgba(30, 41, 59, 0.95) !important;
+  backdrop-filter: blur(20px) !important;
+  border-right: 1px solid rgba(100, 116, 139, 0.3) !important;
+}
+
+.professional-sidebar-light {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(20px) !important;
+  border-right: 1px solid rgba(226, 232, 240, 1) !important;
+}
+
+/* Header professional styling */
+.professional-header-dark {
+  background: rgba(30, 41, 59, 0.95) !important;
+  backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid rgba(100, 116, 139, 0.3) !important;
+}
+
+.professional-header-light {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid rgba(226, 232, 240, 1) !important;
+}
+
+/* Logo professional gradient */
+.professional-logo-bg {
+  background: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%) !important;
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3) !important;
+}
+
+.professional-logo-text {
+  background: linear-gradient(90deg, #FFFFFF 0%, #BFDBFE 50%, #93C5FD 100%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Active sidebar item */
+.professional-sidebar-item-active-dark {
+  background: rgba(59, 130, 246, 0.2) !important;
+  border-left: 4px solid #3B82F6 !important;
+  box-shadow: 0 4px 20px rgba(59, 130, 246, 0.1) !important;
+}
+
+.professional-sidebar-item-active-light {
+  background: rgba(239, 246, 255, 1) !important;
+  border-left: 4px solid #2563EB !important;
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.1) !important;
+}
+
+/* Buttons professional styling */
+.professional-btn-primary {
+  background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%) !important;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3) !important;
+  transition: all 0.2s ease !important;
+}
+
+.professional-btn-primary:hover {
+  box-shadow: 0 6px 25px rgba(59, 130, 246, 0.4) !important;
+  transform: translateY(-1px) !important;
+}
+
+.professional-btn-secondary {
+  background: rgba(71, 85, 105, 0.5) !important;
+  border: 1px solid rgba(100, 116, 139, 0.5) !important;
+  transition: all 0.2s ease !important;
+}
+
+.professional-btn-secondary:hover {
+  background: rgba(100, 116, 139, 0.6) !important;
+}
+
+/* Card professional styling */
+.professional-card-dark {
+  background: rgba(30, 41, 59, 0.6) !important;
+  border: 1px solid rgba(71, 85, 105, 0.3) !important;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.3s ease !important;
+}
+
+.professional-card-dark:hover {
+  border-color: rgba(59, 130, 246, 0.5) !important;
+  box-shadow: 0 12px 48px rgba(59, 130, 246, 0.15) !important;
+  transform: translateY(-2px) !important;
+}
+
+.professional-card-light {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(226, 232, 240, 1) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.04) !important;
+  transition: all 0.3s ease !important;
+}
+
+.professional-card-light:hover {
+  border-color: rgba(59, 130, 246, 0.3) !important;
+  box-shadow: 0 8px 32px rgba(59, 130, 246, 0.1) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Text colors */
+.professional-text-primary {
+  color: #3B82F6 !important;
+}
+
+.professional-text-secondary {
+  color: #64748B !important;
+}
+
+.professional-text-accent {
+  color: #0EA5E9 !important;
+}
+
+/* Accent colors for highlights */
+.professional-accent-blue {
+  color: #60A5FA !important;
+}
+
+.professional-accent-emerald {
+  color: #10B981 !important;
+}
+
+/* Modal/Popup professional styling */
+.professional-modal-dark {
+  background: linear-gradient(135deg, #1E293B 0%, #0F172A 100%) !important;
+  border: 2px solid rgba(59, 130, 246, 0.3) !important;
+  box-shadow: 0 20px 60px rgba(59, 130, 246, 0.2) !important;
+}
+
+.professional-modal-light {
+  background: #FFFFFF !important;
+  border: 2px solid rgba(59, 130, 246, 0.2) !important;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Scrollbar professional styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(30, 41, 59, 0.3);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #3B82F6, #2563EB);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #60A5FA, #3B82F6);
+}
+
+/* Input fields professional styling */
+.professional-input-dark {
+  background: rgba(30, 41, 59, 0.6) !important;
+  border: 1px solid rgba(71, 85, 105, 0.5) !important;
+  color: #F1F5F9 !important;
+  transition: all 0.2s ease !important;
+}
+
+.professional-input-dark:focus {
+  border-color: #3B82F6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+  outline: none !important;
+}
+
+.professional-input-light {
+  background: #FFFFFF !important;
+  border: 1px solid rgba(226, 232, 240, 1) !important;
+  color: #0F172A !important;
+  transition: all 0.2s ease !important;
+}
+
+.professional-input-light:focus {
+  border-color: #3B82F6 !important;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1) !important;
+  outline: none !important;
+}
+
+/* Badge/Tag professional styling */
+.professional-badge-primary {
+  background: linear-gradient(135deg, #3B82F6, #2563EB) !important;
+  color: #FFFFFF !important;
+  padding: 4px 12px !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  font-size: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+}
+
+.professional-badge-success {
+  background: linear-gradient(135deg, #10B981, #059669) !important;
+  color: #FFFFFF !important;
+  padding: 4px 12px !important;
+  border-radius: 6px !important;
+  font-weight: 600 !important;
+  font-size: 10px !important;
+}
+
+/* Typography enhancements */
+.professional-heading {
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.2 !important;
+}
+
+.professional-subheading {
+  font-weight: 600 !important;
+  color: #64748B !important;
+  text-transform: uppercase !important;
+  font-size: 11px !important;
+  letter-spacing: 0.1em !important;
+}
+
+/* Subtle animations */
+@keyframes professional-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.professional-fade-in {
+  animation: professional-fade-in 0.3s ease-out;
+}
+
+/* Glass morphism effect */
+.professional-glass-dark {
+  background: rgba(30, 41, 59, 0.7) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  border: 1px solid rgba(100, 116, 139, 0.2) !important;
+}
+
+.professional-glass-light {
+  background: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(20px) saturate(180%) !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+}
+
+/* Divider lines */
+.professional-divider-dark {
+  border-color: rgba(71, 85, 105, 0.3) !important;
+}
+
+.professional-divider-light {
+  border-color: rgba(226, 232, 240, 1) !important;
+}

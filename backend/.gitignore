@@ -1,0 +1,17 @@
+# Ignore dependencies
+node_modules/
+dist/
+
+# Environment variables
+.env
+
+# GCP credentials
+service-account-key.json
+*.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store

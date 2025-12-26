@@ -1,0 +1,5 @@
+{
+  "name": "Data Automation Framework",
+  "description": "Enterprise scaffolding tool for dbt/BigQuery automation. Generates reconciliation SQL, SCD integrity audits, and custom Python reporting scripts for 30+ tables locally.",
+  "requestFramePermissions": []
+}
